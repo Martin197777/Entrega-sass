@@ -1,0 +1,25 @@
+nav {
+    background-color: $mainColor;
+    padding: 5px;
+    margin: 5px;
+    font-family: $fontMain;
+    font-size: $textSm;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: $white;
+
+    li {
+        ul {
+
+            li {
+                font-size: $textSm;
+            }
+
+        }
+
+    }
+
+}
+

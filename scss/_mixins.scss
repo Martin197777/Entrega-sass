@@ -1,0 +1,30 @@
+.encabezado-fotos {
+    @extend .encabezado__titulos--textcenter;
+     background-color: rgba(17, 16, 16, 0.0);
+ 
+ }
+
+ .texto-fotos {
+    @extend .main__parrafo--italic;
+    color: $black;
+    background-color: rgba(241, 235, 235, 0.2);
+    
+    justify-content: center
+ }
+
+ .texto-parrafo {
+    @extend .main__parrafo--italic;
+    color:$white
+ }
+
+ .btn-font{
+  font-family: $fontMain;
+  font-size: 1.6rem;
+  color: $black;
+  border: none;
+  background: linear-gradient(rgb(32, 93, 150), white);
+  &:hover{
+    font-size: 1.7rem;
+  }
+
+ }
